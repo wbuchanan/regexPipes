@@ -1,0 +1,11 @@
+Package: regexPipes
+Type: Package
+Title: Wrappers Around Base grep for Use With Pipes
+Version: 0.0.1
+Author: Billy Buchanan
+Maintainer: Billy Buchanan <William.Buchanan@mpls.k12.mn.us>
+Description: Provides wrappers around base::grep where the first argument is
+    standardized to take the data object.  This makes it less of a pain to use regular expressions with magrittr or other pipe operators.
+License: GPL (>= 2)
+LazyData: TRUE
+RoxygenNote: 5.0.1.9000
